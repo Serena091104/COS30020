@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    color: #4CAF50;
+}
+
+.navigator {
+    list-style: none;
+    padding: 0; 
+    text-align: center; 
+    background-color: #87bba2; /* Navbar background color */
+    padding: 10px 0; 
+    border-radius: 5px; 
+}
+
+.navlink {
+    display: inline;
+    margin: 0 20px;
+}
+
+.navlink a {
+    text-decoration: none;
+    color: #fff; /* White color for links */
+    padding: 10px 15px; /* Padding for better clickable area */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.navlink a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Background change on hover */
+    color: #FFFF99; /* Change text color on hover */
+}
+
+.navlink a.active {
+    background-color: #4CAF50; /* Active link background */
+    color: #fff; /* Active link color */
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    text-decoration: none;
+    color: #4CAF50;
+    margin: 0 10px;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.friendslinks {
+    text-align: center;
+    margin-top: 20px;
+}
+.friendslinks a {
+    text-decoration: none;
+    color: #4CAF50; /* Link color */
+    font-weight: bold; /* Bold text */
+    padding: 10px 15px; /* Padding for better spacing */
+    border-radius: 25px; /* Rounded corners */
+    background-color: rgba(135, 187, 162, 0.2); /* Light background */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+    margin: 0 10px; /* Space between links */
+    display: inline-block; /* Align links horizontally */
+}
+
+.friendslinks a:hover {
+    background-color: #4CAF50; /* Background color on hover */
+    color: #fff; /* White text on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+.link {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+}
